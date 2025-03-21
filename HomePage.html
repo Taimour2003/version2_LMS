@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Learning Management System</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">LMS</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="signInPageAndSignUpPage.html">Login</a></li>
+            
+            <!-- <li id="login-container">
+                
+                <ul class="dropdown" id="dropdownMenu">
+                    <li><a href="signInPageAndSignUpPage.html">Sign Up</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </li> -->
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h2>Welcome to LMS</h2>
+        <p>Learn new skills with expert instructors</p>
+        <a href="#" class="btn">Explore Courses</a>
+        <a href="AddCoursePage.html" class="btn">Add Course</a> 
+        <button id="delete-mode-btn" class="btn">Delete Mode</button>
+    </header>
+
+    <section class="courses">
+        <h2>Available Courses</h2>
+        <div id="course-container">
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript, and React.</p>
+                <a href="#" class="btn">View Course</a>
+                <i class="fa fa-trash pos trash-icon"></i>
+            </div> 
+            <!--  <div class="course-card">
+                <h3>Python for Beginners</h3>
+                <p>Master Python programming from scratch.</p>
+                <a href="#" class="btn">View Course</a>
+            </div>
+            <div class="course-card">
+                <h3>Data Science</h3>
+                <p>Learn machine learning and AI with Python.</p>
+                <a href="#" class="btn">View Course</a>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 LMS. All Rights Reserved.</p>
+    </footer>
+    <script src="AddCourse.js"></script>
+    <script src="HomePage.js"></script>
+</body>
+</html>

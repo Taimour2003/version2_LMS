@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="AddCoursePage.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">LMS</h1>
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+        </ul>
+    
+    </nav>
+
+    <section class="add-course">
+        <h2>Add a New Course</h2>
+        <form id="course-form">
+            <label for="course-title">Course Title:</label>
+            <input type="text" id="course-title" required>
+
+            <label for="course-desc">Course Description:</label>
+            <textarea id="course-desc" required></textarea>
+
+            <button type="submit" class="btn">Add Course</button>
+        </form>
+    </section>
+
+    <script src="AddCourse.js"></script>
+    <script src="HomePage.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* Styling for Add Course Form */
+.add-course {
+    text-align: center;
+    padding: 40px;
+}
+
+.add-course form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.add-course input, .add-course textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-course .btn {
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
